@@ -1,0 +1,45 @@
+Installed apps:
+
+Name                Version                   Source                                                                                Updated             Info
+----                -------                   ------                                                                                -------             ----
+7zip                23.01                     main                                                                                  2023-07-06 13:55:08     
+ag                  2.2.5                     main                                                                                  2023-06-18 14:21:20     
+aria2               1.36.0-1                  main                                                                                  2023-07-01 20:38:57     
+bat                 0.23.0                    main                                                                                  2023-06-18 14:16:18     
+bottom              0.9.1                     main                                                                                  2023-05-28 16:37:08     
+cacert              2023-01-10                main                                                                                  2023-02-17 22:37:48     
+clink               1.5.1                     main                                                                                  2023-07-06 13:55:27     
+cmake               3.26.4                    main                                                                                  2023-07-07 21:29:36     
+ctags               5.8                       main                                                                                  2023-06-18 14:22:54     
+delta               0.16.5                    main                                                                                  2023-06-18 14:17:29     
+fd                  8.7.0                     main                                                                                  2023-04-05 22:07:47     
+foobar2000          2.0                       extras                                                                                2023-08-08 14:45:09     
+foobar2000-encoders 2023-07-05                extras                                                                                2023-08-08 14:45:34     
+fzf                 0.42.0                    main                                                                                  2023-06-21 21:06:36     
+gdb                 11.1                      main                                                                                  2023-04-27 16:26:48     
+gdu                 5.23.0                    main                                                                                  2023-05-28 16:36:51     
+grep                3.11                      main                                                                                  2023-07-19 15:44:46     
+helix               23.03                     main                                                                                  2023-04-10 21:05:18     
+lazygit             0.37.0                    extras                                                                                2023-04-06 00:36:29     
+lzip                1.22                      main                                                                                  2023-05-21 12:02:53     
+marksman            2023-04-06                main                                                                                  2023-04-10 21:37:31     
+mdbook              0.4.30                    main                                                                                  2023-06-05 09:41:12     
+mpc-be              1.6.8                     extras                                                                                2023-07-20 23:46:48     
+natscli             0.0.35                    extras                                                                                2023-07-18 20:09:00     
+neovim-nightly      0.10.0-dev-895-g91d8f2ac5 versions                                                                              2023-08-21 22:31:22     
+Ninja               1.11.1                    main                                                                                  2023-04-27 00:44:16     
+nodejs-lts          18.17.1                   main                                                                                  2023-08-11 11:44:01     
+oh-my-posh          18.3.3                    https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json 2023-08-11 13:29:19     
+ripgrep             13.0.0                    main                                                                                  2023-05-28 16:35:37     
+scoop-shim          1.0.1                     main                                                                                  2023-08-12 16:10:33     
+sysinternals        2023.7.26                 extras                                                                                2023-08-15 13:31:39     
+tree-sitter         0.20.8                    main                                                                                  2023-05-28 16:52:24     
+vcredist2022        14.31.31103.0             extras                                                                                2022-06-05 16:38:21     
+vim-nightly         9.0.1777                  versions                                                                              2023-08-21 22:31:51     
+wasmtime            10.0.1                    main                                                                                  2023-07-06 13:56:28     
+wget                1.21.3                    main                                                                                  2023-02-17 22:37:55     
+win32yank           0.1.1                     main                                                                                  2023-08-11 23:57:05     
+zig-dev             0.12.0-dev.141            versions                                                                              2023-08-20 21:17:10     
+zstd                1.5.5                     main                                                                                  2023-04-05 23:20:19     
+
+

@@ -1,0 +1,24 @@
+scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
+
+oh-my-posh font install
+
+Once you have installed a Nerd Font, you will need to configure the Windows Terminal to use it. This can be easily done by modifying the Windows Terminal settings (default shortcut: CTRL + SHIFT + ,). In your settings.json file, add the font.face attribute under the defaults attribute in profiles:
+
+{
+    "profiles":
+    {
+        "defaults":
+        {
+            "font":
+            {
+                "face": "MesloLGM Nerd Font"
+            }
+        }
+    }
+}
+
+Powershell:
+C:\Users\sgwon\OneDrive\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+
+cmd:
+C:\Users\sgwon\AppData\Local\clink\oh-my-posh.lua

@@ -87,10 +87,25 @@ call plug#end()
 let g:sql_type_default = 'pgsql'
 
 colorscheme sitruuna
+let g:sitruuna_fzf = 1
 let g:lightline = {
       \ 'colorscheme': 'sitruuna',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'g:FugitiveHead',
+      \   'filename': 'LightlineFilename',
+      \ },
       \}
-let g:sitruuna_fzf = 1
+
+function! LightlineFilename()
+  return &filetype ==# 'vimfiler' ? vimfiler#get_status_string() :
+        \ &filetype ==# 'unite' ? unite#get_status_string() :
+        \ &filetype ==# 'vimshell' ? vimshell#get_status_string() :
+        \ expand('%F') !=# '' ? expand('%F') : '[No Name]'
+endfunction
 
 " [Buffers] Jump to the existing window if possible
 let g:fzf_buffers_jump = 1
